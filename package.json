@@ -1,15 +1,17 @@
 {
-  "homepage": "http://Shafi-Yaftali01.github.io/My-3D-Portfolio",
+  "homepage": "https://github.com/Shafi-Yaftali01/My-3D-Portfolio",
   "name": "My-3D-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build", 
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
